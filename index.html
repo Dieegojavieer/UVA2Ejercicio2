@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Pro - Registro</title>
+  <link rel="icon" type="image/png" href="img\logo_fitness_pro.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="img\amigos_entrenando.png" alt="Tres personas entrenando en el gimnasio">
+    <div class="header-content">
+      <img src="img\logo_fitness_pro.png" alt="Logo Fitness Pro" class="logo">
+      <h1>FITNESS PRO</h1>
+      <p>Tu Red de Gimnasios de Confianza</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Planes</a>
+    <a href="#">Horarios</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <div class="container">
+    <h1>Formulario de Registro</h1>
+    <img src="img\pareja_entrenando.png" alt="Gimnasio Fitness Pro" class="gym-image">
+    <form>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono">
+
+      <label for="plan">Tipo de plan:</label>
+      <select id="plan" name="plan">
+        <option value="mensual">Mensual</option>
+        <option value="trimestral">Trimestral</option>
+        <option value="anual">Anual</option>
+      </select>
+
+      <label for="horario">Horario preferido:</label>
+      <select id="horario" name="horario">
+        <option value="manana">Mañana (6:00 a 12:00)</option>
+        <option value="tarde">Tarde (12:00 a 18:00)</option>
+        <option value="noche">Noche (18:00 a 23:00)</option>
+      </select>
+
+      <input type="submit" value="Registrarse">
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Fitness Pro - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
